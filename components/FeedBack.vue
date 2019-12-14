@@ -1,6 +1,6 @@
 <template>
     <section class="feedback">
-        <h2 class="feedback__title">Decided to go on a trip? <br> White to us!</h2>
+        <h2 class="feedback__title">Decided to go on a trip? <br> Write to us!</h2>
         <form class="feedback__form" action="#">
             <p class="feedback__form__name">Name:</p>
             <input class="feedback__form__field" type="text" placeholder="John">
@@ -19,7 +19,7 @@
     }
 </script>
 
-<style>
+<style scoped>
 
 .feedback {
     width: 100%;

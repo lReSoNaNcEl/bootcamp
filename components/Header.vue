@@ -10,7 +10,7 @@
                     <a href="#" class="header__navmenu__item__link">Service</a>
                 </div>
                 <div class="header__navmenu__item">
-                    <a href="#" class="header__navmenu__item__link">Reviews</a>
+                    <a href="#" class="header__navmenu__item__link">Gallery</a>
                 </div>
                 <div class="header__navmenu__item">
                     <a href="#" class="header__navmenu__item__link">Feedback</a>
@@ -31,7 +31,7 @@
 
 </script>
 
-<style>
+<style scoped>
 
 .header {
     width: 100%;
