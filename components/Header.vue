@@ -54,7 +54,7 @@
     background-size: cover;
     height: 50px;
     width: 150px;
-    border-radius: 50%;
+    border-radius: 30%;
 }
 
 .header__navmenu {
@@ -69,12 +69,12 @@
 .header__preview {
     border: 5px solid white;
     width: 62.5vw;
-    height: 500px;
+    height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0 130px 0 130px;
+    padding: 0 6.77vw 0 6.77vw;
 }
 
 .header__preview__title {

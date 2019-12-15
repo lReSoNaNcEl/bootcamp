@@ -4,6 +4,7 @@
     <Service/>
     <Gallery/>
     <FeedBack/>
+    <Contacts/>
   </div>
 </template>
 
@@ -13,6 +14,7 @@
     import Service from '@/components/Service';
     import Gallery from '@/components/Gallery';
     import FeedBack from '@/components/FeedBack';
+    import Contacts from '@/components/Contacts';
 
 export default {
 
@@ -20,8 +22,8 @@ export default {
         Header,
         Service,
         Gallery,
-        FeedBack
-
+        FeedBack,
+        Contacts
     }
 }
 </script>
@@ -48,5 +50,9 @@ export default {
 
   button:hover {
     cursor: pointer;
+  }
+
+  li {
+    list-style-type: none;
   }
 </style>
